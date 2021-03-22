@@ -3,7 +3,7 @@ package HackerRank;
 import java.util.*;
 import java.math.BigInteger;
 
-class isProbablePrime {
+class isProbablePrimeBigInteger {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,3 +1,5 @@
+package WiproJan2021;
+
 import java.util.Scanner;
 
 public class TCSNQT3 {

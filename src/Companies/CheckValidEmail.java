@@ -1,4 +1,4 @@
-package WiproJan2021;
+package Companies;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

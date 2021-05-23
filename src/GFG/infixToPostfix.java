@@ -31,7 +31,7 @@ public class infixToPostfix {
             else if(c == '(') stack.push(c);    // If the scanned character is an '(', push it to the stack.
             else if(c == ')') { //  If the scanned character is an ')', pop and output from the stack until an '(' is encountered.
                 while(!stack.isEmpty() && stack.peek() != '(') sb = sb.append(stack.pop());
-                stack.pop();
+                stack.pop();    //removes the last ')' from the stack
             }
             else {  // an operator is encountered
                 while (!stack.isEmpty() && precedence(c) <= precedence(stack.peek())) {
